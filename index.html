@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VẺ ĐẸP DU LỊCH LAI CHÂU</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+</head>
+<body>
+    <div class="bg mobile-hiden"></div>
+    <div id="wrapper">
+        <header id="header" class="container-sm container-md container-lg">
+            <label for="nav-mobile-input" class="nav_bars-btn pc-hiden">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </label>
+            
+            <input type="checkbox" name="" class="nav-input" id="nav-mobile-input">
+
+            <label for="nav-mobile-input"class="nav_overlay"></label>
+
+            <div class="nav_mobile">
+                <label for="nav-mobile-input" class="nav_mobile-close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </label >
+                <ul class="nav_mobile-list">
+                    <li>
+                        <a href="#" class="nav_mobile-link">
+                            <span><i class="nav_mobile-icon fa fa-home" aria-hidden="true"></i></span>
+                            <span class="nav_mobile-text">TRANG CHỦ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./site/gioithieu.html" class="nav_mobile-link">
+                            <span><i class="nav_mobile-icon fa fa-info" aria-hidden="true"></i></span>
+                            <span class="nav_mobile-text">GIỚI THIỆU</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./site/error.html" class="nav_mobile-link">
+                            <span><i class="nav_mobile-icon fa fa-newspaper-o" aria-hidden="true"></i></span>
+                            <span class="nav_mobile-text">TIN TỨC</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./site/error.html" class="nav_mobile-link">
+                            <span><i class="nav_mobile-icon fa fa-bed" aria-hidden="true"></i></span>
+                            <span class="nav_mobile-text">KHÁCH SẠN</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./site/error.html" class="nav_mobile-link">
+                            <span><i class="nav_mobile-icon fa fa-book" aria-hidden="true"></i></span>
+                            <span class="nav_mobile-text">KINH NGHIỆM DU LỊCH</span>
+                        </a>
+                    </li>
+                    <li>
+                        <label for="nav-mobile-input">
+                            <a href="#footer" class="nav_mobile-link">
+                                <span><i class="nav_mobile-icon fa fa-phone" aria-hidden="true"></i></span>
+                                <span class="nav_mobile-text">LIÊN HỆ</span>
+                            </a>
+                        </label>
+                    </li>
+                    <li>
+                        <a href="./site/" class="nav_mobile-link">
+                            <span><i class="nav_mobile-icon fa fa-user" aria-hidden="true"></i></span>
+                            <span class="nav_mobile-text">ĐĂNG NHẬP</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <img src="./logo/logo.jpg" alt="Ảnh logo" id="logo">
+            <img src="./images/nav.jpg" alt="Ảnh nền navbar" class="mobile-hiden">
+
+            <input type="checkbox" name="" class="nav-input" id="search-input"> 
+
+            <label for="search-input" class="nav_search-btn pc-hiden">
+                <i class="fa fa-search mobile-search" aria-hidden="true"></i>
+            </label>
+
+            <div class="nav-mobile-search">
+                <label for="search-input" class="nav_mobile-search-close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </label >
+                <div id="mobile-search-input">
+                    <div class="input-group">
+                       <div class="form-outline">
+                         <input type="search" id="form1"  placeholder="Search" class="form-control" />
+                       </div>
+                       <button type="button" class="btn btn-primary">
+                         <i class="fa fa-search"></i>
+                       </button>
+                     </div>
+                   </div>
+            </div>
+        <div class="pc-nav-full  mobile-hiden">
+            <div class="container-lg">
+                    <div class="pc-nav">
+                        <div><a href="#" class="pc-nav-link">TRANG CHỦ</a></div>
+                        <div><a href="./site/gioithieu.html" class="pc-nav-link">GIỚI THIỆU</a></div>
+                        <div><a href="./site/error.html" class="pc-nav-link">TIN TỨC</a></div>
+                        <div><a href="./site/error.html" class="pc-nav-link">KHÁCH SẠN</a></div>
+                        <div><a href="./site/error.html" class="pc-nav-link">KINH NGHIỆM DU LỊCH</a></div>
+                        <div><a href="./index.html#footer" class="pc-nav-link">LIÊN HỆ</a></div>
+                        <div><a href="./site/error.html" class="pc-nav-link">ĐĂNG NHẬP</a></div>
+                    </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+        <div class=" container-sm  container-md container-lg" id="flickity-viewport">
+            <div class="slide-tablet-pc mobile-hiden">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/slide1.jpg" class="d-block w-100 h-100" alt="ảnh phố">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/slide2.jpg" class="d-block w-100 h-100" alt="ảnh nhìn mặt trời">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/slide3.jpg" class="d-block w-100 h-100" alt="quán ăn">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <img class="tablet-hiden" style="width: 100%!important;" src="./images/anhmay.jpg" alt="ảnh thành phố">
+        </div>
+        <main class="container-sm container-md container-lg" id="main">
+            <div class="row view-pc">
+                <div class=" col-sm-12 col-lg-12 col-md-12">
+                    <h1 class="title-home">Điểm đến nổi bật Lai Châu</h1>
+                </div>
+                <div class=" col-sm-12 col-lg-4 col-md-6">
+                    <img class="img-mobile img-tablet" src="./images/caukinhrongmay/anh6.jpg" alt="ảnh cầu kính">
+                    <h4 class="title-img">Cầu kính Rồng Mây</h4>
+                    <p class="info-img">
+                        Cầu kính Rồng Mây nằm ở độ cao 2.200 m so với mực nước biển, thuộc Khu du lịch cầu kính Rồng Mây ở xã Sơn Bình, huyện Tam Đường, tỉnh Lai Châu.
+                    </p>
+                    <a href="./site/caukinhrongmay.html" class="img-link">
+                            <button type="button" class="btn btn-danger img-btn">Chi tiết</button>
+                    </a>
+                </div>
+
+                <div class=" col-sm-12 col-lg-4 col-md-6">
+                    <img class="img-mobile img-tablet" src="./images/phiengtien.jpg" alt="Phiêng tiên">
+                    <h4 class="title-img">Bản du lịch Phiêng Tiên</h4>
+                    <p class="info-img">
+                        Bản du lịch cộng đồng Phiêng Tiên cách thị trấn Tam Đường khoảng 10km, thuộc xã Bản Bo, huyện Tam Đường. Bản có khoảng 80 hộ dân, gần 400 nhân khẩu, đều là dân tộc Lào sinh sống.
+                    </p>
+                    <a href="./site/bandulichphientien.html" class="img-link">
+                            <button type="button" class="btn btn-danger img-btn">Chi tiết</button>
+                    </a>
+                </div>
+
+                <div class=" col-sm-12 col-lg-4 col-md-6">
+                    <img class="img-mobile img-tablet" src="./images/putaleng/8.jpg" alt="ảnh Pu Ta Leng hùng vĩ">
+                    <h4 class="title-img">Chinh phục đỉnh Pu Ta Leng hùng vĩ</h4>
+                    <p class="info-img">
+                        Đỉnh Pu Ta Leng có độ cao 3.049m, nằm trên dãy Hoàng Liên Sơn, thuộc xã Hồ Thầu, huyện Tam Đường, cách thành phố Lai Châu khoảng 20 km và được mệnh danh là một trong những nóc nhà của Đông Dương. Đây sẽ là điểm đến tuyệt vời cho du khách ưa khám phá.
+                    </p>
+                    <a href="./site/putaleng.html" class="img-link">
+                            <button type="button" class="btn btn-danger img-btn">Chi tiết</button>
+                    </a>
+                </div>
+
+                <div class=" col-sm-12 col-lg-4 col-md-6">
+                    <img class="img-mobile img-tablet" src="./images/thuydienbanchat/10.jpg" alt="ảnh đập Thủy điện Bản Chát">
+                    <h4 class="title-img">Thủy điện Bản Chát</h4>
+                    <p class="info-img">
+                        Lòng hồ thủy điện Bản Chát đã và đang trở thành một điểm đến tham quan du lịch, thu hút nhiều du khách trong và ngoài tỉnh mỗi khi đến Than Uyên, Lai Châu. Đến với lòng hồ thủy điện Bản Chát du khách có thể chèo thuyền hoặc thuê thuyền máy để dạo chơi trên mặt hồ xanh, thăm làng cá Thẩm Phé, thưởng thức ẩm thực Tây Bắc trên sông.
+                    </p>
+                    <a href="./site/thuydienbanchat.html" class="img-link">
+                            <button type="button" class="btn btn-danger img-btn">Chi tiết</button>
+                    </a>
+                </div>
+
+                <div class=" col-sm-12 col-lg-4 col-md-6">
+                    <img class="img-mobile img-tablet" src="./images/sinsuoiho/7.jpg" alt="Sin Suối Hồ">
+                    <h4 class="title-img">Sin Suối Hồ</h4>
+                    <p class="info-img">
+                        Chiều ngày 18/11/2020, Hiệp hội Du lịch Việt Nam đã tổ chức Lễ vinh danh các doanh nghiệp và cá nhân tiêu biểu của du lịch Việt Nam năm 2019 tại Hà Nội. Bản Sin Suối Hồ, huyện Phong Thổ, tỉnh Lai Châu đã được vinh danh là “Làng du lịch cộng đồng tiêu biểu năm 2019”.
+                    </p>
+                    <a href="./site/sinsuoiho.html" class="img-link">
+                            <button type="button" class="btn btn-danger img-btn">Chi tiết</button>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row view-pc-2">
+                <div class=" col-sm-12 col-lg-12 col-md-12">
+                    <h1 class="title-home">Danh lam thắng cảnh</h1>
+                </div>
+
+                <div class=" col-sm-12 col-lg-4 col-md-6">
+                    <img class="img-mobile img-tablet" src="./images/danh-lam-thang-canh/2c55b5a47bcaf2d955faf0487d38a072018b.jpg" alt="Thác Tác Tình">
+                    <h4 class="title-img">
+                        Thác Tác Tình</h4>
+                    <p class="info-img">
+                        Thác Tác Tình thuộc thị trấn Bình Lư, huyện Tam Đường, tỉnh Lai Châu. Thác nằm giữa dãy núi Sơn Đào, dòng thác bắt nguồn từ dãy Hoàng Liên Sơn.
+                    </p>
+                </div>
+
+                <div class=" col-sm-12 col-lg-4 col-md-6">
+                    <img class="img-mobile img-tablet" src="./images/danh-lam-thang-canh/DSC00310 sua.png" alt="Hệ thống hang động Gia Khâu">
+                    <h4 class="title-img">Hệ thống hang động Gia Khâu</h4>
+                    <p class="info-img">
+                        Hệ thống hang động Gia Khâu nằm trên một ngọn núi thấp thuộc bản Gia Khâu, xã Nậm Loỏng, thành phố Lai Châu, là một hệ thống bao gồm ba hang động, được chia thành ba cấp ở ba hướng, nằm thu gọn trong một thung lũng, được người dân nơi đây phát hiện ra trong khi làm nương rẫy và được gọi tên là hang Gia Khâu.
+                    </p>
+                </div>
+
+                <div class=" col-sm-12 col-lg-4 col-md-6">
+                    <img class="img-mobile img-tablet" src="./images/danh-lam-thang-canh/IMG_0001.jpg" alt="Động Tiên Sơn">
+                    <h4 class="title-img">Động Tiên Sơn</h4>
+                    <p class="info-img">
+                        Động Tiên Sơn (tên gọi khác là động Đán Đón, Pờ Ngài Tủng, động Đá Trắng, động Bình Lư) nằm kề quốc lộ 4D, thuộc địa phận xã Bình Lư, huyện Tam Đường.
+                    </p>
+                </div>
+
+                <div class=" col-sm-12 col-lg-4 col-md-6">
+                    <img class="img-mobile img-tablet" src="./images/danh-lam-thang-canh/IMG_3963.jpg" alt="Núi Đá Ô">
+                    <h4 class="title-img">
+                        Núi Đá Ô</h4>
+                    <p class="info-img">
+                        Danh thắng Núi Đá Ô nằm trong địa phận bản Bành Phán, xã Tả Phìn, huyện Sìn Hồ.
+                        Núi Đá Ô được gắn với sự tích của người Dao Khâu, kể về ông Tiên xuống hạ giới du ngoạn để quên cái ô, qua thời gian cái ô hóa thành đá.
+                    </p>
+                </div>
+
+                <div class=" col-sm-12 col-lg-4 col-md-6">
+                    <img class="img-mobile img-tablet" src="./images/danh-lam-thang-canh/nhu-da-trong-hang-dong-gia-khau-1.jpg" alt="ảnh Pusamcap">
+                    <h4 class="title-img">Quần thể danh thắng Pusamcap</h4>
+                    <p class="info-img">
+                        Quần thể danh lam thắng cảnh Pusamcap nằm trên bản Gia Khâu I, xã Nậm Loỏng, thành phố Lai Châu. Đây là dãy núi đất và đá vôi, catster, sườn núi thoai thoải từ 20-300m về hướng Nam và dốc đứng, chia cắt về hướng Bắc. Chính kiến tạo địa chất này đã tạo nên ở phía bắc dãy núi cả một hệ thống hàng chục hang động, suối ngầm kéo dài từ xã Nùng Nàng qua Nậm Loỏng đến xã Lản Nhì Thàng.
+                    </p>
+                </div>
+
+            </div>
+        </main>
+
+        <footer id="footer">
+            <div class="container-sm">
+                <h2>Thông tin liên hệ</h2>
+                <ul class="footer-list">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span>Sáp Mai - Đông Anh - Hà Nội</span>
+                    </li>
+                    <li>
+                        <a href="tel:+840389256111">
+                            <span><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                            <span>+84-389-256-111</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:damhvfx11250@funix.edu.vn">
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <span>damhvfx11250@funix.edu.vn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100013905391264">
+                            <span><i class="fa fa-facebook-square" aria-hidden="true">
+                            </i><span>
+                            <span>Hoàng Đắm</span>
+                        </a>
+                    </li>
+                    <a href="./index.html">
+                        <img class="footer-logo" src="./logo/logo.jpg" alt="ảnh logo">
+                    </a>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
