@@ -1,0 +1,100 @@
+@media only screen and (min-width: 992px) {
+    .pc-hiden {
+        display: none;
+    }
+
+    body{
+        background-color: #ffff;
+        background-image: url("../images/bg.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+    #header{
+        justify-content: center;
+        max-height: 92px;
+    }
+
+    .pc-nav-full {
+        position: fixed;
+        background-color: #ee1d23;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .pc-nav {
+        display: flex;
+        justify-content: space-between;
+        z-index: 10;
+    }
+
+    .pc-nav-link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        line-height: 56px;
+    }
+
+    .pc-nav-link:hover {
+        color: rgba(255, 255, 255, 0.562);
+    }
+
+    #header {
+        margin-top: 56px;
+        border-bottom: 1px solid rgb(233, 227, 227);
+    }
+
+    .title-home {
+        padding-top: 90px;
+        font-size: 40px;
+        letter-spacing: 6px;
+        word-spacing: 12px;
+    }
+    
+    .title-img {
+        color: #054d45;
+        font-size: 28px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .info-img {
+        font-size: 20px;
+        height: 64px;
+    }
+
+    .img-link >.btn {
+        width: 30%;
+        float: right;
+    }
+
+    .view-pc {
+        border-bottom: 2px solid red;
+    }
+
+    .view-pc-2 {
+        background-color: #ffcc66;
+    }
+
+    .view-pc-2 .info-img{
+        overflow: visible;
+        display: block;
+        font-size: 20px;
+        line-height: 40px;
+        word-spacing: 4px;
+    }
+
+    .view-pc-2 .col-lg-4{
+        height: 780px;
+    }
+
+    .footer-logo {
+        width: 280px;
+        height: auto;
+    }
+}

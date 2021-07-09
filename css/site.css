@@ -1,0 +1,32 @@
+.title-site {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#main img {
+    width: 100%;
+}
+
+p {
+    font-size: 22px;
+}
+
+.title-more {
+    background: #fcf8f7;
+    color: red;
+    font-size: 20px;
+}
+
+.site-more {
+    padding: 6px;
+} 
+
+.site-more-link {
+    font-size: 18px;
+    text-decoration: none; 
+    border-bottom:  1px solid rgb(143, 177, 115);
+}
+
+.text-active {
+    color: #333;
+}
