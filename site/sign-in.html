@@ -4,32 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="../logo/4.jpg" />
+    <title>Đăng nhập</title>
+    <link rel="shortcut icon" href="../logo/7.jpg" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/site.css">
     <link rel="stylesheet" href="../css/tablet.css">
     <link rel="stylesheet" href="../css/desktop.css">
-    <style>
-        .error-tb {
-            color: red;
-            margin: auto;
-            text-align: center;
-            margin-top: 80px;
-        }
-
-        .video {
-            margin: auto;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
-    <div class="bg mobile-hiden"></div>
     <div id="wrapper">
         <header id="header" class="container-sm container-md container-lg">
             <label for="nav-mobile-input" class="nav_bars-btn pc-hiden">
@@ -40,7 +27,7 @@
 
             <label for="nav-mobile-input"class="nav_overlay"></label>
 
-            <div class="nav_mobile" style="z-index: 2;">
+            <div class="nav_mobile">
                 <label for="nav-mobile-input" class="nav_mobile-close">
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </label >
@@ -52,25 +39,25 @@
                         </a>
                     </li>
                     <li>
-                        <a href="../site/gioithieu.html" class="nav_mobile-link">
+                        <a href="#" class="nav_mobile-link">
                             <span><i class="nav_mobile-icon fa fa-info" aria-hidden="true"></i></span>
                             <span class="nav_mobile-text">GIỚI THIỆU</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav_mobile-link">
+                        <a href="error.html" class="nav_mobile-link">
                             <span><i class="nav_mobile-icon fa fa-newspaper-o" aria-hidden="true"></i></span>
                             <span class="nav_mobile-text">TIN TỨC</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav_mobile-link">
+                        <a href="error.html" class="nav_mobile-link">
                             <span><i class="nav_mobile-icon fa fa-bed" aria-hidden="true"></i></span>
                             <span class="nav_mobile-text">KHÁCH SẠN</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav_mobile-link">
+                        <a href="error.html" class="nav_mobile-link">
                             <span><i class="nav_mobile-icon fa fa-book" aria-hidden="true"></i></span>
                             <span class="nav_mobile-text">KINH NGHIỆM DU LỊCH</span>
                         </a>
@@ -84,15 +71,15 @@
                         </label>
                     </li>
                     <li>
-                        <a href="sign-in.html" class="nav_mobile-link">
+                        <a href="#" class="nav_mobile-link">
                             <span><i class="nav_mobile-icon fa fa-user" aria-hidden="true"></i></span>
                             <span class="nav_mobile-text">ĐĂNG NHẬP</span>
                         </a>
                     </li>
                 </ul>
             </div>
-            <img src="./logo/logo.jpg" alt="" id="logo">
-            <img src="./images/nav.jpg" alt="" class="mobile-hiden">
+            <img src="../logo/logo.jpg" alt="Ảnh logo" id="logo">
+            <img src="../images/nav.jpg" alt="Ảnh nền navbar" class="mobile-hiden">
 
             <input type="checkbox" name="" class="nav-input" id="search-input"> 
 
@@ -119,38 +106,57 @@
             <div class="container-lg">
                     <div class="pc-nav">
                         <div><a href="../index.html" class="pc-nav-link">TRANG CHỦ</a></div>
-                        <div><a href="../site/gioithieu.html" class="pc-nav-link">GIỚI THIỆU</a></div>
-                        <div><a href="#" class="pc-nav-link">TIN TỨC</a></div>
-                        <div><a href="#" class="pc-nav-link">KHÁCH SẠN</a></div>
-                        <div><a href="#" class="pc-nav-link">KINH NGHIỆM DU LỊCH</a></div>
-                        <div><a href="../index.html#footer" class="pc-nav-link">LIÊN HỆ</a></div>
-                        <div><a href="sign-in.html" class="pc-nav-link">ĐĂNG NHẬP</a></div>
+                        <div><a href="gioithieu.html" class="pc-nav-link">GIỚI THIỆU</a></div>
+                        <div><a href="error.html" class="pc-nav-link">TIN TỨC</a></div>
+                        <div><a href="error.html" class="pc-nav-link">KHÁCH SẠN</a></div>
+                        <div><a href="error.html" class="pc-nav-link">KINH NGHIỆM DU LỊCH</a></div>
+                        <div><a href="#footer" class="pc-nav-link">LIÊN HỆ</a></div>
+                        <div><a href="#" class="pc-nav-link">ĐĂNG NHẬP</a></div>
                     </div>
             </div>
         </div>
 
     </header>
 
-
-        <main id="error">
-            <div class="container-fluid">
-                <div class="error-tb">    
-                    <h1>TRANG KHÔNG TỒN TẠI ...</h1> <br>
-                    <a href="../index.html">
-                    <h1>
-                        TRANG CHỦ
-                    </h1></a>
+    <main class="container-sm">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-login">
+                    <span class="login-title">Login</span>
+                    <div class="login-input">
+                        <span class="login-input-text">Username</span>
+                        <input type="text" placeholder="Type your username">
+                    </div>
+                    <div class="login-input">
+                        <span class="login-input-text">Password</span>
+                        <input type="password" placeholder="Type your password">
+                    </div>
+                    <div><a href="#" class="login-forgot">Forgot password?</a></span>
+        
+                    <button type="button" class="btn btn-primary">Login</button>
+        
+                    <span class="login-more">Or Sign Up Using</span>
+                    <div class="login-icon">
+                        <div><a href="https://www.facebook.com/" class="icon-link">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </a></div>
+                        <div><a href="https://twitter.com/" class="icon-link">
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </a></div>
+                        <div><a href="https://accounts.google.com/signin/v2/recoveryidentifier?hl=vi&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="icon-link">
+                            <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                        </a></div>
+                    </div>
+        
+                    <div class="sign-up">
+                        <span class="sign-up-text">Have account yet?</span>
+                        <a href="#" class="sign-up-link">SIGN UP</a>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </main>
 
-                <div class="video">
-
-                    <video width="70%" controls>
-                        <source src="../videos/video.mp4" type="video/mp4">
-                        <source src="../videos/video.mp4" type="video/mp4">
-                        Your browser does not support HTML video.
-                      </video>
-                </div>
-        </main>
 
         <footer id="footer">
             <div class="container-sm">
@@ -185,8 +191,8 @@
                 </ul>
             </div>
         </footer>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
