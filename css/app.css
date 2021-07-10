@@ -127,10 +127,10 @@
 
 .nav_mobile-search-close {
     position: absolute;
-    right: 0;
-    top: 0;
-    color: rgb(148, 152, 206);
-    font-size: 18px;
+    right: 95%;
+    top: -4px;
+    color: #001fff;
+    font-size: 20px;
 
 }
 
