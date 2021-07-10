@@ -30,3 +30,82 @@ p {
 .text-active {
     color: #333;
 }
+
+/*login*/
+.form-login {
+    box-sizing: border-box;
+    width: 366px ;
+    height: 766px;
+    border: 1px solid red;
+    margin: auto ;
+    text-align: center;
+    background-color: #fcf8f7;
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: 600;
+    display: block;
+    margin: 40px 0;
+}
+
+.login-input {
+    display: flex;
+    flex-direction: column;
+}
+.login-input-text {
+    text-align: start;
+    margin:10px 24px
+}
+
+input {
+    margin: 0 24px;
+
+}
+
+.login-forgot {
+    display: block;
+    text-align: end;
+    margin-right: 24px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+button {
+    width: 50%;
+    margin: 18px 24px;
+}
+
+.login-more {
+    display: block;
+    margin-top: 60px;
+}
+
+.login-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 30%;
+}
+
+.icon-link{
+    text-decoration: none;
+    font-size: 28px;
+    border-radius: 60%;
+}
+
+.sign-up {
+    display: block;
+
+}
+
+.sign-up-text {
+    display: block;
+    margin: 150px 0 20px;
+}
+
+.sign-up-link {
+    color: rgb(78, 77, 82);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
